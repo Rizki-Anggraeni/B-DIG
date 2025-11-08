@@ -1,12 +1,7 @@
 import React from "react";
 import Map from "./Map";
-import {
-  FaWhatsapp,
-  FaInstagram,
-  FaLinkedin,
-  FaTwitter,
-  FaGithub,
-} from "react-icons/fa";
+import { FaWhatsapp, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+import { SiX } from "react-icons/si";
 
 export default function Contact() {
   return (
@@ -54,14 +49,14 @@ export default function Contact() {
             </a>
 
             <a
-              href="https://twitter.com/yourhandle"
+              href="https://x.com/yourhandle"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 p-3 rounded-md bg-white/3 hover:bg-white/5 transition"
-              aria-label="Twitter"
+              aria-label="X"
             >
-              <FaTwitter className="w-6 h-6" aria-hidden />
-              <span className="text-sm font-medium">Twitter</span>
+              <SiX className="w-6 h-6" aria-hidden />
+              <span className="text-sm font-medium">X</span>
             </a>
 
             <a
@@ -75,7 +70,6 @@ export default function Contact() {
               <span className="text-sm font-medium">GitHub</span>
             </a>
           </div>
-
         </div>
         <div className="bg-gradient-to-br from-[#071226] via-[#081934] to-[#00121a] border border-neutral-800 rounded-2xl p-6 shadow-lg">
           <h3 className="font-semibold">Office</h3>
